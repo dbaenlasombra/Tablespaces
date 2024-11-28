@@ -139,7 +139,7 @@ EOF
       set __ $(lanza_sqlplus)
       FINAL=${2}
 
-     printf "Mantenimiento=${TABLESPACE}\nSize Ant=${ORIGINAL}\nAct=${FINAL}\nissue=${ISSUE}"  | mailx -s "[IBOST] Mantenimiento Tablespace ${TABLESPACE}  with more ${UMBRAL} - ${TODAY}." ${EMAIL}
+     printf "Mantenimiento=${TABLESPACE}\nSize Ant=${ORIGINAL}\nAct=${FINAL}\nissue=${ISSUE}"  | mailx -s "[XXXX] Mantenimiento Tablespace ${TABLESPACE}  with more ${UMBRAL} - ${TODAY}." ${EMAIL}
      fi
      fi
      done <  INFO_TABLESPACE.log
